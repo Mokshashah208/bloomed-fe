@@ -1,6 +1,4 @@
 import TextField from "@mui/material/TextField";
-import InputAdornment from "@mui/material/InputAdornment";
-import SearchIcon from "@mui/icons-material/Search";
 
 interface Props {
   search: string;
@@ -21,13 +19,6 @@ const SearchBar = ({ search, setSearch }: Props) => {
           borderRadius: 3,
           bgcolor: "#fff",
         },
-      }}
-      InputProps={{
-        startAdornment: (
-          <InputAdornment position="start">
-            <SearchIcon />
-          </InputAdornment>
-        ),
       }}
     />
   );
