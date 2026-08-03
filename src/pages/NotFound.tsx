@@ -79,7 +79,7 @@ const NotFound = () => {
             },
           }}
         >
-          Back To Products
+          Back To Home
         </Button>
       </Box>
     </Container>
